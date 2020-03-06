@@ -15,6 +15,8 @@ exports.view = function(req, res){
   	labs.push(todaysLab);
   }
 
+  console.log(labs);
+
   res.render('index', {
 	'labs': labs
   });
